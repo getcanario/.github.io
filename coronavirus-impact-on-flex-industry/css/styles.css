@@ -1,0 +1,129 @@
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+.title {
+    font-family: 'Lato', sans-serif !important;
+    color: #fff;
+}
+.subtitle {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif !important;
+    color: #fff;
+}
+strong{
+    color: inherit;
+}
+.subtitle strong {
+    color: inherit;
+    font-weight: 600;
+}
+.nav-section{
+	padding-top:10px;
+}
+.navbar{
+	background-color: transparent;
+}
+.title-section{
+	text-align: center;
+}
+.icon-button{
+	margin:0 10px;
+}
+.button{
+	padding:15px 30px;
+}
+.button-primary {
+    background: -webkit-linear-gradient(315deg, #22d47b 0%, #7ee5af 100%);
+    background: linear-gradient(135deg, #22d47b 0%, #7ee5af 100%);
+    color: #fff;
+    border: none;
+}
+.button-primary:hover {
+    background: linear-gradient(135deg, #4CB8C4 0%, #3CD3AD 100%);;
+    color: #fff;
+    border: none;
+}
+
+.banner {
+    position: relative;
+    background-size: cover !important;
+    background: url(../img/back.png) no-repeat center;
+    background-repeat: no-repeat;
+    height: 100%
+
+}
+.banner>img {
+    width: 100%;
+    top: 0;
+    margin: auto;
+}
+
+.footer{
+    background-color: white;
+}
+.bottom-btn{
+text-align: center;
+margin-bottom:20px;
+}
+
+.tabss li.is-active a {
+    border-bottom-color: #22d47b;
+    color: #22d47b;
+    align-items: left !important;
+    font-weight: bold;
+}
+.tabss li a:hover {
+    border-bottom-color: #000;
+    color: #000;
+}
+.tabss a {
+    border-bottom-color: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #4a4a4a;
+    display: flex;
+    margin-bottom: -1px;
+    padding: .5em 1em;
+    vertical-align: top;
+}
+
+.tabss ul li{
+   text-align: left !important;
+}
+.tabss ul {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.tabss li+li {
+    margin-left: 0;
+}
+
+.tabss{
+    -webkit-overflow-scrolling: touch;
+    align-items: stretch;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+.is-black{
+    color:black;
+}
+.card-content {
+
+    height: 200px;
+}
+
+.info-text{
+  padding: 20px;
+  background-color: #f6f7fa;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+         
